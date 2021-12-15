@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>B4 Drones</title>
+    <style>
+        @import url(assets/style.css);
+    </style>
+    <script src="assets/script.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="main">
+        <nav>
+            <a class="logo" href="index.html">logo</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="review.html">Review</a>
+        </nav>
+        <section>
+            <div class="droneLines">
+                <div class="finalDrone">
+                    <img class="blade1" src="assets/images/dji_drone_blade2.png">
+                    <img class="blade2" src="assets/images/dji_drone_blade2.png">
+                    <img class="blade3" src="assets/images/dji_drone_blade2.png">
+                    <img class="blade4" src="assets/images/dji_drone_blade2.png">
+
+                    <img src="assets/images/dji_drone2.png" class="droneFly" alt="animated drone">
+                    <!-- <div class="droneCable"></div> -->
+                </div>
+
+                <div class="line1"></div>
+                <div class="line2"></div>
+                
+            </div>
+            
+            <div class="contact_container">
+                <form action="/action_page.php">
+                    <label for="fname">Ship To</label>
+                    <input type="text" id="fname" name="firstname" placeholder="first name" required>
+                    <br>
+
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                    <br>
+                    <input type="email" id="email" name="email"  placeholder="Enter Email" required>
+                    <br>
+                    <div class="barcodeBox">
+                        <div class="barcode">
+                            <p>|| |||||||||| |||| ||||||||| ||||||||||| |||||||</p>
+                            <p id="trackingNbr">AZ 573 191 782 IE</p>
+
+                        </div>
+                    </div>
+
+                    <textarea id="subject" name="subject" placeholder="write more information"></textarea>
+                    <br>
+                    <hr>
+                    <br>
+                    <div>
+                        <img id="qrcode" src="assets/images/qrcode_www.amazon.co.uk.png">
+                        <img id="qrcode" src="assets/images/qrcode_www.flir.eu.png">
+                        <img id="qrcode" src="assets/images/qrcode_www.dji.com.png">
+                    </div>
+                    <hr>
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <footer>
+
+            </footer>
+        </section>
+
+    </section>
+</body>
+
+</html>
