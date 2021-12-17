@@ -3,67 +3,325 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>B4 Drones</title>
+  <style>
+    @import url(assets/style.css);
+  </style>
+  <script src="assets/script.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 
 <body>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: sans-serif;
-    }
+  <nav class="nav" id="myNav">
+    <a class="logo" href="index.html">X-Drones</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="trendingProduct.html">Trending</a>
+    <a href="review.html">Review</a>
+    <a href="blogPage.html">Blog</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </nav>
+  <header class="pageInfoReport">
+    <h1>X-Drones</h1>
+    <h1>Project Report</h1>
+    <h3>TU856</h3>
+    <br>
+    <h3>Web Development</h3>
+    <h3>Jon Kehoe C21372766</h3>
+    <br>
+    <h5>School of computer science</h5>
+    <h5>Technological University Dublin</h5>
+    <h5>Date: 18th December 2021</h5>
+  </header>
+  <section class="reportSect">
+    <h1>1.Problem Description</h1>
+    <hr>
+    <p>
+      This Website is based on drones, it acts as and information site but also a shop as you can see on the trending
+      pages. this website offers a hub for the drone communioty to upload video as seen on the blog page where users can
+      see others work and accomplishments. This offers a support base where anyone with the tresrest of buying as drone
+      or just there to see other peoples work. In this website there are alot of features like js and and animation with
+      css, this offer a better experoence for the user to iommerse the user in thinging what will happen next.
+    </p>
+    <p>
+      The use
+      of opacity allows for the transparincy of picture and allows for effect that are seen on the about page. This
+      website uses a js scroll fade effect with provises information about certain parts of the drone. On thre trending
+      page it shows what drone is the best in the market at the moment and it provies the speca and al;so a small bit of
+      information too. The page also has a accesorries tablw with can combine with the drone that is trending. The
+      contact apge uses a form with a first, second name and email input, these fields are mandatory before submitting
+      anuthoing in the form. The conatct container is respnsive just like all the other containers and colums on the
+      website it provies a user experinec on mobile too.
+    </p>
+    <p>
+      The use of css animation helped me put the drone that flys into
+      frmae and the bklades spin after the drone flys into frame. This isd used to help interact the user wiht the page
+      and it allows ther users to remeber the page because of this aniimation. The use of js for the carousel provides a
+      seemless transition between images allowing the user to see differnt elemts of drones.
+      This website helps to provide information about the mosty trending drone on the market and also a page where users
+      can upload work and videos to share to the drone community.
+    </p>
+    </p>
+  </section>
+  <section class="reportSect">
+    <h1>2.Research</h1>
+    <hr>
+    <p>
+      As part of my research i looked at differnt pages not only around drones but also around the styling of my webiste
+      for insperation.
+    </p>
+    <img src="assets/images/droneDirect.png">
+    <p>
+      I got informationn from drones direct to hel;p me make the layoutn of the trending page with the css dropdown
+      with the stats and also a recommended product table. I quite like the design of thye page as it is very infomative
+      but also i kpet mile looking clean wiothe hover dropdown as this has a better look to tie into my website. I used
+      font awesome as icons to put into my dropdown as i think it looks better rather than a css tick.
+    </p>
+    <img src="assets/images/firewatch.png">
+    <p>
+      I got informatrion from this site for the use of its js, this gave me the insperatrion to have a scroll fade
+      effect implamented on my index page to help bring information in a less boring way. I feel that the better the
+      feasture of the ewebsite the more the user will come back and use and reccomend the website. I used a row with 3
+      coplumns the center for the image and the two outside ones for inforrmation on the image in the center. I
+      personally think this looks better but for the future i would like the image in the center to be bigger and the
+      text fade down into the image to have more of teh apple parralx scroll efffect.
+    </p>
+    <img src="assets/images/youtubesect.png">
+    <p>
+      For my blog page i got insperatrion from youtube with the payout of the video cards, i fel that the way i done it
+      allows fopr a small decription to be added to the card before the user clicks to play the video. The video due to
+      it being in an iframe itr allows the user to watch on the actual webiste page itself rather than having to click
+      into youtube. I used css to create a user profile picture to put on each cartd to show what user uploaded what
+      just like youtube. This page is build very clean so that its easy to navigate and use thta all people can use the
+      page.
+    </p>
+  </section>
+  <section class="reportSect">
+    <h1>3.Technology Selection and Site Architecture</h1>
+    <hr>
+    <p>
+      On every page each sectiona nd part you see has been adjusted for use on differnt media devices. A fecture that
+      the macbook has is that it allows the webiet to be viewd in differnt sizes. This is helpful to see what it is like
+      on smaller screens. The rows in website turn to columns in smaller screen sizes to allow a better viewer
+      experience. The use of css allows that a meda tag be places on a particular element so that it can be styled to
+      use on differnt media devices.
+    </p>
+  </section>
+  <section class="reportSect">
+    <h1>4.Low Fidelity Prototype</h1>
+    <hr>
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="720" height="470"
+      src="https://app.uizard.io/p/160b7131/embed" allowfullscreen></iframe>
+    <p></p>
+  </section>
+  <section class="reportSect">
+    <h1>5.Development Plan</h1>
+    <hr>
+    <p>
+      First we start off with the wireframe to get a basic look for the website this alolows me to change as i go along
+      to see what looks best in differnt areas
+      The index page layout was done first hten the css was added then the js parts, i wanted to go with a large image
+      to open up from the website to drasw the users attention to clickl the courasell and then scroll down to the
+      effects of the js.
+      Then the about page was added, i dont want to put so much design into this as the cards will do the work ans they
+      will contain videos insides them. This also contians a largew header image to attarct the users attention.
+      Then the contact page is next, i want to create the drone flying across the screen and when the animation is done
+      to rotate the blade to look like the drone is hovering. I feel that this will take the longest due to me learning
+      the use of the css animations and to delay and make the blades trasparent when the drone is flying onto the
+      screen. The contact contaier is happed to look like a box and the shipping sticker for the input for the form. The
+      form requires the user to input a first name and second name and a valid email address.
+      Then the trending page is made, this will have a clean look as it will be informative to the user with the top
+      drone on the market. This page will contain a dropdown with tech specs of the drone and fontawesome icons will be
+      used to give the dropdown content more of a style. An accesorries table will be added to give the user a better
+      look at products compatable with the trending drone and the price which if the website was a fully funtional a
+      inpage product page will open showing the product in more depth.
+      Then the blog page is done, this will be made to look like a youtube type page with rows and column of videos. In
+      the cards there will be an iframe of a youtube video. I will then amke a userprofile picture to look like the user
+      for a more personilised look.
+    </p>
+  </section>
+  <section class="reportSect">
+    <h1>6.Testing Plan</h1>
+    <hr>
+    <p>
+      Testing the website i will use the functionality of the macbook to chnage to size of the screen to have alook at
+      waht it will look like on other media devices. In my css i will have media quirys to display content in differnt
+      wasy on differnt screens and help give the best user experience possible. Also i will drag the webite to expand
+      and contract it to see what it will look like on different instances.
+    </p>
+  </section>
+  <section class="reportSect">
+    <h1>7.Site Evaluation</h1>
+    <hr>
+    <p>
+      I will evalue the website on rensponivness, design, use of css, use of js, content quality, customisation.
+    </p>
+    <h3>Rensponivness</h3>
+    <p>
+      In my website i have very good responsivness in differnt browsers and the media displayu is very good in differnt
+      screen sizes. It could be improves in differnt areas like teh drone animation and the bloades to make it look more
+      reponsive as it was the first tiem doing it there is always more room of improvement.
+    </p>
+    <h3>Use of CSS</h3>
+    <p>
+      There is a great range of css use for eah element of the webiste like the page break was a very good idea to reuse
+      code as this could be appiled to everypage to split differnt Elements. The use of styling has made the webiste
+      look very professinal but small areas to improve on is use padding more around boxes, text and titles as this will
+      allow for a better box model evaluation.
+    </p>
+    <h3>Use of JS</h3>
+    <p>
+      There is three pieces of js in the website, the code used is not the best but can be improved as this has been the
+      first project i ahve it fully implamented and working. I would have liked to use it more in differnt areas in the
+      website for a parralx effect.
+    </p>
+    <h3>Content Quality</h3>
+    <p>
+      The information present in the website is informative for the parts of the drone, i would have liked to add more
+      sections on the index page allowing me to enable more information and more insight into the drone software and the
+      coding aspect of it.
+    </p>
+    <h3>Design</h3>
+    <p>
+      the overall deisgn is very futeristiuc with balck as the prinmary theme, this theme is projected towards users who
+      like this theme which gives a sense of indugence. The design if promoted by the use of its animations and js which
+      ties to the theme of fucturistic.
+      As this webiste is about drones i added a flying drone to the contact page for the user to remember this site and
+      the purpose of the page
+    </p>
+  </section>
+  <section class="reportSect">
+    <div class="blogRow">
+      <div class="blogColumn">
+        <div class="blogCard">
+          <div class="blogCardContent">
+            <h3>Logbook 1</h3>
+            <p>
+              Idea
+              - Drone Website
 
-    section {
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      scroll-snap-align: start;
-    }
+              This website will incorporate services fro drones and more of what the future will hold for them.
+              -the website will incorporate an interactive drone to which when hover you can learn about the different
+              sections of the drone e.g. the motors, esc, flight controller and more. This will provide a more
+              interesting learning and informative website. The time will be dark as a futuristic element will be
+              present through the website.
+              The use of video to image what the future will look like and how it will shape our lives. This allows for
+              an understanding and informative approach to learning about drones.
+              - the use of js will show an animation on entering the site and the use of a parallax zoom and scroll
+              effect as the user scrolls through the different sections of the web site
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="blogColumn">
+        <div class="blogCard">
+          <div class="blogCardContent">
+            <h3>Logbook 2</h3>
+            <p>
+              From the last submission of the website log, I have drawn out the template and the sections on each page.
+              This is only a rough draft as I will add more in the future. The java scripty elements have been chosen as
+              a zoom into the pages images as the pages will be cut into sections. The fist page will contain a carassel
+              so research will be needled to understand the element. The nav will be interactive so when scrolling it
+              will follow the pages as it will be scrolled. The theme of the pages will be dark as the futuristic
+              element is prone to the theme of the topic.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="blogColumn">
+        <div class="blogCard">
+          <div class="blogCardContent">
+            <h3>Logbook 3</h3>
+            <p>
+              This week I started the process of adding the basic skeleton of each page to get a feel of what everything
+              will look like as if the website was fully done. Some changes around the carousel had been made as the
+              lecture this week showed me how I could uses js to switch from picture to picture and I feel I could use
+              that as a way to have my carousel. I want to go for a minimal look but have js as an element around the
+              whole website.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pageBreak"></div>
+    </div>
+    <div class="blogRow">
 
-    .container {
-      scroll-snap-type: y mandatory;
-      overflow-y: scroll;
-      height: 100vh;
-    }
+      <div class="blogColumn reviewLast">
+        <div class="blogCard">
+          <div class="blogCardContent">
+            <h3>Logbook 4</h3>
+            <p>
+              This week I had started to create the contact page. For the contact page I started to create a box
+              template with a container for the postage details to make it look like a parcel that you would receive
+              in the mail. I added place holder text to guide the customer to fill out details and a responsive
+              message form. I also started to construct the products page with individual boxes to allow to place
+              products in. A js script will be used to make the boxes more responsive with them appearing from off the
+              page and disappear when scrolling.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="blogColumn reviewLast">
+        <div class="blogCard">
+          <div class="blogCardContent">
+            <h3>Logbook 5</h3>
+            <p>
+              During this week I made my home page into sections and added a scroll effect with css for when it gets
+              to a certain point in the section it scrolls down to fit to the users needs. This allows the page to
+              look like it look like it had multiple parts that were interactive. I also added my product boxes to
+              fade in on scroll with js. More development has been done on the contact page as I have started the js
+              with the drone to fly onto the page to make it look like it was picking up the contact box.
+            </p>
+          </div>
+        </div>
+      </div>
 
-    .one {
-      background: chartreuse;
-    }
-
-    .two {
-      background: purple;
-    }
-
-    .three {
-      background: peru;
-    }
-
-    .four {
-      background: paleturquoise;
-    }
-  </style>
-
-
-  <div class="container">
-    <section class="one">
-      <h1>First Page<h1>
-    </section>
-    <section class="two"> 
-      <h1>second Page<h1>
-    </section>
-    <section class="three">
-      <h1>third Page<h1>
-    </section>
-    <section class="four">
-      <h1>fourth<h1>
-    </section>
-  </div>
+    </div>
+    <div class="pageBreak"></div>
+  </section>
+  <footer>
+    <div class="footerRow">
+      <div class="footerColumn">
+        <h3><a href="index.html">X-Drones</a></h3>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+      <div class="footerColumn">
+        <h4>Support</h4>
+        <p><a href="contact.html">Contact Us</a></p>
+        <p>FAQ</p>
+        <p>Software</p>
+        <p>Shipping</p>
+        <p>Docs</p>
+        <p>Forms</p>
+      </div>
+      <div class="footerColumn">
+        <h4>X-Drones</h4>
+        <p><a href="about.html">About Us</a></p>
+        <p>Careers</p>
+        <p>Access</p>
+        <p>Design</p>
+      </div>
+      <div class="footerColumn">
+        <h4>Stay up to date on the latest</h4>
+        <form action="/action_page.php">
+          <input type="email" id="newsEmail" name="email" placeholder="Enter Email" required
+            style="width: 200px;background-color: black;color: white;">
+          <hr>
+          <br>
+          <br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
