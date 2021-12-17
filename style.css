@@ -3,8 +3,10 @@ body {
 }
 
 .contactBody {
-    background-color: grey;
+    background-image: url("https://media.cntraveler.com/photos/5835b597bfbc10942ab37aa1/16:9/w_3807,h_2141,c_limit/1..jpg");
 }
+
+
 
 nav {
     overflow: hidden;
@@ -22,6 +24,31 @@ nav a {
     
 }
 
+nav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .nav a:not(:first-child) {display: none;}
+    .nav a.icon {
+      float: right;
+      display: block;
+    }
+}
+  
+@media screen and (max-width: 900px) {
+    .nav.responsive {position: relative;}
+    .nav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .nav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
 .logo {
     font-size: 18px;
 }
@@ -33,11 +60,20 @@ footer {
     
 }
 
+.fab {
+    padding: 5px;
+}
+
 .footerColumn {
     float: left;
     width: 25%;
     padding: 5px;
     
+}
+
+.footerColumn a {
+    text-decoration: none;
+    color: white;
 }
 
 .footerColumn:nth-child(1) {
@@ -64,9 +100,9 @@ footer {
     font-size: 14px;
 }
 
-.footerColumn h3:hover, p:hover, p a:hover {
+/* .footerColumn h3:hover, p:hover, p a:hover {
     color: grey;
-}
+} */
 
 
 
@@ -124,7 +160,7 @@ form hr {
 
 .infobox {
     height: 200px;
-    background-color: teal;
+    background-color: grey;
 }
 
 
@@ -238,7 +274,7 @@ input[type=submit]:hover {
   
 .contact_container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #D3A780;
     padding: 20px;
     width: 900px;
     margin: auto;
@@ -624,26 +660,16 @@ input[type=submit]:hover {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    
+    background-color: black;
+}
+
+.centerC {
+    height: 400px; 
+    margin-top: 5%;
+    background-color: black;
 }
     
-.section:nth-child(1) {
-    color: #fff;
-}
-    
-.section:nth-child(2) {
-    color: #1D212B;
-    background: #fff;
-}
-    
-.section:nth-child(3) {
-    color: #fff;
-}
-    
-.section:nth-child(4) {
-    color: #1D212B;
-    background: #fff;
-}
+
     
 .section .box {
     margin: 100px;
@@ -668,7 +694,7 @@ input[type=submit]:hover {
     
     
 .section .cards .text-card {
-    background: #2696E9;
+    background: white;
     margin: 20px;
     padding: 20px;
     
@@ -849,6 +875,7 @@ input[type=submit]:hover {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     
 }
   
@@ -979,3 +1006,28 @@ input[type=submit]:hover {
     height: 200px;
     width: 100%;
 }
+
+
+
+/* report Page */
+
+.pageInfoReport {
+    text-align: center;
+}
+
+.reportSect {
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 1px solid black;
+    padding: 12px;
+}
+
+.reportSect img {
+    height: 400px;
+}
+
+.reviewLast {
+    width: 50%;
+}
+
