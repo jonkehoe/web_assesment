@@ -84,3 +84,14 @@ for (var i = 0; i < btns.length; i++) {
         this.className += " actives";
     });
 }
+
+
+
+function myFunction() {
+    var x = document.getElementById("myNav");
+    if (x.className === "nav") {
+        x.className += " responsive";
+    } else {
+        x.className = "nav";
+    }
+}
